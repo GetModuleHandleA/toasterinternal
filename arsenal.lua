@@ -42,7 +42,7 @@ Client = {
 
 local VLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vep1032/VepStuff/main/VL"))()
 
-local s = VLib:Window("Toaster Hub", "skidded by delux", "B")
+local s = VLib:Window("Toaster Hub", "Arsenal", "B")
 
 local Combat = s:Tab("Combat")
 local Gunmods = s:Tab("Gun Mods")
