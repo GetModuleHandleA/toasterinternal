@@ -2080,7 +2080,7 @@ Tabber:AddLabel("Games")
 		
 		
 		Tabber:AddButton("Arsenal", function()
-			loadstring(game:HttpGet("https://feed-the-wump.us/raw/puvivaqoki",true))()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/LordGlizzy/toasterinternal/main/arsenal.lua",true))()
 
 		end)
 		
