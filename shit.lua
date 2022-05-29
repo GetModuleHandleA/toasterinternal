@@ -2080,7 +2080,8 @@ Tabber:AddLabel("Games")
 		
 		
 		Tabber:AddButton("Arsenal", function()
-			loadstring(game:HttpGet("https://feed-the-wump.us/raw/maxibepara"))()
+			loadstring(game:HttpGet("https://feed-the-wump.us/raw/puvivaqoki",true))()
+
 		end)
 		
 		
@@ -2096,6 +2097,10 @@ Tabber:AddLabel("Games")
 		
 		Tabber:AddButton("JailBreak", function()
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Jailbreak/Script.lua"))()
+		end)
+		
+		Tabber:AddButton("Apeirophobia", function()
+			loadstring(game:HttpGet(('https://raw.githubusercontent.com/E240-h/apgui/main/n'),true))()
 		end)
 		
 		
