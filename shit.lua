@@ -2034,6 +2034,7 @@ do -- Example UI
 	
 	
 local Tabber = Window:AddTab("Scripts")
+local more = Window:AddTab("Misc")
 
 	do -- Elements
 		
@@ -2106,6 +2107,13 @@ Tabber:AddLabel("Games")
 		
 Tabber:AddButton("[TRADING] Squid Game", function()
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/anonimbiri/roblox-Squid-Game-hack/main/script%20V2.txt"))()
+		end)
+		
+		more:AddLabel("Credits:")
+		more:AddLabel("Made by: Delux")
+		more:AddLabel("Special thanks to: cim for being hawt!")
+		more:AddButton("Discord", function()
+			setclipboard("https://discord.gg/zKgxfq2szk")
 		end)
 
 	end
